@@ -1,9 +1,8 @@
-import React from 'react'
+import { NextResponse } from "next/server";
 
-const route = () => {
-  return (
-    <div>route</div>
-  )
+export async function GET() {
+  return NextResponse.json({
+    status: "ok",
+    message: "Health route working",
+  });
 }
-
-export default route
