@@ -18,7 +18,7 @@ export default function Navbar() {
             Book Appointment
           </Link>
 
-          <Link href="/chatbot" className="text-gray-600 hover:text-black">
+          <Link href="/public/chatbot" className="text-gray-600 hover:text-black">
             AI Assistant
           </Link>
 

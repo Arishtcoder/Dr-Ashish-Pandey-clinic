@@ -19,7 +19,7 @@ export default function Home() {
         </a>
 
         <a
-          href="/chatbot"
+          href="/public/chatbot"
           className="px-6 py-3 border border-black rounded-lg"
         >
           Ask AI Assistant
