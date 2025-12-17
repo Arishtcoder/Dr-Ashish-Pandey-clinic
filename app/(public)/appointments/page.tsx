@@ -7,7 +7,7 @@ export default function AppointmentsPage() {
 
       <div className="container">
         <div className="booking-section">
-          <a href="/public/book">
+          <a href="/book">
             <button className="book-appointment">
               Book Appointment
             </button>
