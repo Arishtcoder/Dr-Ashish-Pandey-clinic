@@ -14,11 +14,11 @@ export default function Navbar() {
 
         {/* Nav Links */}
         <div className="flex gap-6 items-center">
-          <Link href="/public/appointments" className="text-gray-600 hover:text-black">
+          <Link href="/(public)/appointments" className="text-gray-600 hover:text-black">
             Book Appointment
           </Link>
 
-          <Link href="/public/chatbot" className="text-gray-600 hover:text-black">
+          <Link href="/(public)/chatbot" className="text-gray-600 hover:text-black">
             AI Assistant
           </Link>
 
