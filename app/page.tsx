@@ -12,14 +12,14 @@ export default function Home() {
 
       <div className="mt-6 flex gap-4">
         <a
-          href="/public/appointments"
+          href="/(public)/appointments"
           className="px-6 py-3 bg-black text-white rounded-lg"
         >
           Book Appointment
         </a>
 
         <a
-          href="/public/chatbot"
+          href="/(public)/chatbot"
           className="px-6 py-3 border border-black rounded-lg"
         >
           Ask AI Assistant
