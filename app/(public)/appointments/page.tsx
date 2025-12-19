@@ -8,7 +8,7 @@ export default function AppointmentsPage() {
       <div className="container">
         <div className="booking-section">
           <a href="/book">
-            <button className="book-appointment">
+            <button className="book-appointment bg-black text-white px-4 py-2 rounded-lg">
               Book Appointment
             </button>
           </a>

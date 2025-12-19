@@ -1,13 +1,7 @@
-import type { Metadata } from "next";
 import "@/app/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-
-export const metadata: Metadata = {
-  title: "Dr Ashish Pandey Fitness",
-  description: "Physiotherapy, rehabilitation and fitness care",
-};
+import Asidebar from "@/components/Asidebar";
 
 export default function RootLayout({
   children,
@@ -16,10 +10,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
       <body className="antialiased">
+        {/* Mobile sidebar */}
+        <Asidebar />
+
+        {/* Desktop / Tablet navbar */}
         <Navbar />
-        {children}
+
+        <main className="page-content">
+          {children}
+        </main>
+
         <Footer />
       </body>
     </html>
